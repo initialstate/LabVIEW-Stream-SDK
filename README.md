@@ -1,4 +1,4 @@
-# labVIEW_Stream_SDK
+# LabVIEW-Stream-SDK
 This SDK opens in LabVIEW 2013 or later and gives a simple SDK for streaming data from LabVIEW to your Initial State workspace. Initial State Streaming API is meant for low-speed monitoring application. You can easily send 10-50 data points per second continuously via LabVIEW and see the results update in your browser through the Initial State application. 
 
 ![screenshotofallvis](https://user-images.githubusercontent.com/1337932/39655788-3527aa9e-4fc1-11e8-9b2f-5d88ef359350.png)
