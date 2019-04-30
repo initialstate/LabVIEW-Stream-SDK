@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+Error Codes from Initial State + LabVIEW Integration.
+
+<nifamily familyname="Initial State Server Errors (6000 +HTTP Error Status Code)" displayname="Initial State Server Errors (6000 +HTTP Error Status Code)">
+</nifamily>
+</nicomment>
+<nierror code="6413">
+Initial State reported the Request Entity Too Large
+</nierror>
+<nierror code="6429">
+Initial State reported that you have exceeded the rate limit. This is fixed by buffering and batching requests and/or slowing down/decimating the stream.
+</nierror>
+<nierror code="6401">
+Initial State reported that your credentials are unauthorized. This is likely that your Access Key is incorrect. 
+</nierror>
+</nidocument>

@@ -11,13 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Initial State SDK" Type="Folder">
-			<Item Name="Header Helpers" Type="Folder">
-				<Item Name="IS Set Access Key.vi" Type="VI" URL="../Initial State LabVIEW SDK/Header Helpers/IS Set Access Key.vi"/>
-				<Item Name="IS Set Bucket Key.vi" Type="VI" URL="../Initial State LabVIEW SDK/Header Helpers/IS Set Bucket Key.vi"/>
-				<Item Name="IS Set Standard Headers.vi" Type="VI" URL="../Initial State LabVIEW SDK/Header Helpers/IS Set Standard Headers.vi"/>
-				<Item Name="IS Process Response.vi" Type="VI" URL="../Initial State LabVIEW SDK/Header Helpers/IS Process Response.vi"/>
-			</Item>
+		<Item Name="Initial State LabVIEW SDK" Type="Folder">
 			<Item Name="Data Helpers" Type="Folder">
 				<Item Name="IS Generate Random Bucket Key.vi" Type="VI" URL="../Initial State LabVIEW SDK/Data Helpers/IS Generate Random Bucket Key.vi"/>
 				<Item Name="IS Epoch Time.vi" Type="VI" URL="../Initial State LabVIEW SDK/Data Helpers/IS Epoch Time.vi"/>
@@ -25,10 +19,13 @@
 				<Item Name="IS PolyVI Instance String to JSON Cluster.vi" Type="VI" URL="../Initial State LabVIEW SDK/Data Helpers/IS PolyVI Instance String to JSON Cluster.vi"/>
 				<Item Name="IS PolyVI Instance Bool To JSON Cluster .vi" Type="VI" URL="../Initial State LabVIEW SDK/Data Helpers/IS PolyVI Instance Bool To JSON Cluster .vi"/>
 			</Item>
-			<Item Name="Custom Data Types" Type="Folder">
-				<Item Name="IS Session.ctl" Type="VI" URL="../Initial State LabVIEW SDK/Custom Data Types/IS Session.ctl"/>
-				<Item Name="IS Bucket Session.ctl" Type="VI" URL="../Initial State LabVIEW SDK/Custom Data Types/IS Bucket Session.ctl"/>
-				<Item Name="IS Data Point TypeDef (String).ctl" Type="VI" URL="../Initial State LabVIEW SDK/Custom Data Types/IS Data Point TypeDef (String).ctl"/>
+			<Item Name="HTTP Header Helpers" Type="Folder">
+				<Item Name="IS Set Access Key.vi" Type="VI" URL="../Initial State LabVIEW SDK/HTTP Header Helpers/IS Set Access Key.vi"/>
+				<Item Name="IS Set Bucket Key.vi" Type="VI" URL="../Initial State LabVIEW SDK/HTTP Header Helpers/IS Set Bucket Key.vi"/>
+				<Item Name="IS Set Standard Headers.vi" Type="VI" URL="../Initial State LabVIEW SDK/HTTP Header Helpers/IS Set Standard Headers.vi"/>
+			</Item>
+			<Item Name="HTTP IS Error Processing" Type="Folder">
+				<Item Name="IS Process Response.vi" Type="VI" URL="../Initial State LabVIEW SDK/HTTP IS Error Processing/IS Process Response.vi"/>
 			</Item>
 			<Item Name="IS Open Connection.vi" Type="VI" URL="../Initial State LabVIEW SDK/IS Open Connection.vi"/>
 			<Item Name="IS Open-Create Bucket.vi" Type="VI" URL="../Initial State LabVIEW SDK/IS Open-Create Bucket.vi"/>
@@ -36,13 +33,25 @@
 			<Item Name="IS Send One-shot.vi" Type="VI" URL="../Initial State LabVIEW SDK/IS Send One-shot.vi"/>
 			<Item Name="IS Data to IS Cluster.vi" Type="VI" URL="../Initial State LabVIEW SDK/IS Data to IS Cluster.vi"/>
 			<Item Name="IS Close Connection.vi" Type="VI" URL="../Initial State LabVIEW SDK/IS Close Connection.vi"/>
-			<Item Name="IS Documentation.vi" Type="VI" URL="../Initial State LabVIEW SDK/IS Documentation.vi"/>
 		</Item>
-		<Item Name="Help Menu VI" Type="Folder">
-			<Item Name="Initial State + LabVIEW Support.vi" Type="VI" URL="../Help Menu VI/Initial State + LabVIEW Support.vi"/>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="IS Session.ctl" Type="VI" URL="../Initial State LabVIEW SDK/Controls/IS Session.ctl"/>
+			<Item Name="IS Bucket Session.ctl" Type="VI" URL="../Initial State LabVIEW SDK/Controls/IS Bucket Session.ctl"/>
+			<Item Name="IS Data Point TypeDef (String).ctl" Type="VI" URL="../Initial State LabVIEW SDK/Controls/IS Data Point TypeDef (String).ctl"/>
 		</Item>
-		<Item Name="Initial State Example - Looping.vi" Type="VI" URL="../Initial State Example - Looping.vi"/>
-		<Item Name="Initial State Example - One-shot.vi" Type="VI" URL="../Initial State Example - One-shot.vi"/>
+		<Item Name="_Errors" Type="Folder">
+			<Item Name="IS-Initial State IoT Streaming SDK-errors.txt" Type="Document" URL="../Initial State LabVIEW SDK/_Errors/IS-Initial State IoT Streaming SDK-errors.txt"/>
+		</Item>
+		<Item Name="_EULA" Type="Folder">
+			<Item Name="EULA+License_MIT.txt" Type="Document" URL="../Initial State LabVIEW SDK/_EULA/EULA+License_MIT.txt"/>
+		</Item>
+		<Item Name="_Examples" Type="Folder">
+			<Item Name="Initial State Example - Looping.vi" Type="VI" URL="../Initial State LabVIEW SDK/_Examples/Initial State Example - Looping.vi"/>
+			<Item Name="Initial State Example - One-shot.vi" Type="VI" URL="../Initial State LabVIEW SDK/_Examples/Initial State Example - One-shot.vi"/>
+		</Item>
+		<Item Name="_Help" Type="Folder">
+			<Item Name="Initial State + LabVIEW Support.vi" Type="VI" URL="../Initial State LabVIEW SDK/_Help/Initial State + LabVIEW Support.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -52,6 +61,9 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -81,9 +93,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
-				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
