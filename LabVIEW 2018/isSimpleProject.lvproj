@@ -43,7 +43,7 @@
 			<Item Name="IS-Initial State IoT Streaming SDK-errors.txt" Type="Document" URL="../Initial State LabVIEW SDK/_Errors/IS-Initial State IoT Streaming SDK-errors.txt"/>
 		</Item>
 		<Item Name="_EULA" Type="Folder">
-			<Item Name="EULA+License_MIT.txt" Type="Document" URL="../Initial State LabVIEW SDK/_EULA/EULA+License_MIT.txt"/>
+			<Item Name="EULA_License_MIT.txt" Type="Document" URL="../Initial State LabVIEW SDK/_EULA/EULA_License_MIT.txt"/>
 		</Item>
 		<Item Name="_Examples" Type="Folder">
 			<Item Name="Initial State Example - Looping.vi" Type="VI" URL="../Initial State LabVIEW SDK/_Examples/Initial State Example - Looping.vi"/>
