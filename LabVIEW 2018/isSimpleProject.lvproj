@@ -48,6 +48,7 @@
 		<Item Name="_Examples" Type="Folder">
 			<Item Name="Initial State Example - Looping.vi" Type="VI" URL="../Initial State LabVIEW SDK/_Examples/Initial State Example - Looping.vi"/>
 			<Item Name="Initial State Example - One-shot.vi" Type="VI" URL="../Initial State LabVIEW SDK/_Examples/Initial State Example - One-shot.vi"/>
+			<Item Name="Initial State Controls Example.vi" Type="VI" URL="../Initial State LabVIEW SDK/_Examples/Initial State Controls Example.vi"/>
 		</Item>
 		<Item Name="_Help" Type="Folder">
 			<Item Name="Initial State + LabVIEW Support.vi" Type="VI" URL="../Initial State LabVIEW SDK/_Help/Initial State + LabVIEW Support.vi"/>
@@ -99,7 +100,26 @@
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
+				<Item Name="IS Data Point TypeDef (String).ctl" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/Controls/IS Data Point TypeDef (String).ctl"/>
+				<Item Name="IS Open Connection.vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/IS Open Connection.vi"/>
+				<Item Name="IS Session.ctl" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/Controls/IS Session.ctl"/>
+				<Item Name="IS Set Access Key.vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/HTTP Header Helpers/IS Set Access Key.vi"/>
+				<Item Name="IS Set Standard Headers.vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/HTTP Header Helpers/IS Set Standard Headers.vi"/>
+				<Item Name="IS Open-Create Bucket.vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/IS Open-Create Bucket.vi"/>
+				<Item Name="IS Bucket Session.ctl" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/Controls/IS Bucket Session.ctl"/>
+				<Item Name="IS Generate Random Bucket Key.vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/Data Helpers/IS Generate Random Bucket Key.vi"/>
+				<Item Name="IS Process Response.vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/HTTP IS Error Processing/IS Process Response.vi"/>
+				<Item Name="IS PolyVI Instance Bool To JSON Cluster .vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/Data Helpers/IS PolyVI Instance Bool To JSON Cluster .vi"/>
+				<Item Name="IS PolyVI Instance String to JSON Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/Data Helpers/IS PolyVI Instance String to JSON Cluster.vi"/>
+				<Item Name="IS Epoch Time.vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/Data Helpers/IS Epoch Time.vi"/>
+				<Item Name="IS PolyVI Instance DBL To JSON Cluster .vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/Data Helpers/IS PolyVI Instance DBL To JSON Cluster .vi"/>
+				<Item Name="IS Send.vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/IS Send.vi"/>
+				<Item Name="IS Set Bucket Key.vi" Type="VI" URL="/&lt;vilib&gt;/Initial State by Tektronix/Tektronix, Initial State IoT Streaming SDK/HTTP Header Helpers/IS Set Bucket Key.vi"/>
 			</Item>
+			<Item Name="Tag-c(bool,i32,str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-c(bool,i32,str).lvlib"/>
+			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
+			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
+			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
